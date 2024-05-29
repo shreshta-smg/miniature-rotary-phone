@@ -1,0 +1,15 @@
+quarkus:
+  application:
+    ui-header: "{applicationName} (powered by Shreshta)"
+  http:
+    port: 9887
+  hibernate-orm:
+    log:
+      sql: true
+  datasource:
+    username: root
+    password: admin123
+    db-kind: mariadb
+    jdbc:
+      url: jdbc:mariadb://localhost:3306/paymentsdb
+      max-size: 16
